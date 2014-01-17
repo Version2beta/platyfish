@@ -9,36 +9,119 @@
 
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!--link rel="stylesheet" href="css/foundation.css" /-->
+    <!--link rel="stylesheet" href="css/normalize.css"-->
+    <link rel="stylesheet" href="css/app.css">
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
   </head>
   <body class="turtles">
     <div class="row stats right">
       <p>Time remaining</p>
-      <div class="progress">
+      <div class="progress radius">
         <span class="meter" style="width:40%"></span>
         <p>Campaign ends 30 March 2014</p>
       </div>
-      <p>Oysters</p>
-      <div class="progress">
-        <span class="meter" style="width:70%"></span>
-        <p>35,000 oysters (of 50,000)</p>
-      </div>
       <p>Funding</p>
-      <div class="progress">
+      <div class="progress radius">
         <span class="meter" style="width:70%"></span>
-        <p>$17,000 (of $25,000)</p>
+        <p>$18,750 (of $25,000)</p>
       </div>
-      <p>Support this campaign</li>
+      <h2>Sea turtles</h2>
+      <div class="row">
+        <div class="small-3 columns text-right">
+          <i class="fi-heart"></i>
+        </div>
+        <div class="small-3 columns">
+        </div>
+        <div class="small-3 columns text-right">
+        </div>
+        <div class="small-3 columns">
+        </div>
+      </div>
+      <p><a class="radius button" style="width: 100%">I'll support this campaign!<a></p>
+      <form>
+        <div class="row">
+          <div class="small-12 columns">
+            <input id="have_account" name="account" type="radio" /><label for="have_account">I already have an account</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <input id="create_account" name="account" type="radio" /><label for="create_account">I want to create an account</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <input id="dont_create_account" name="account" type="radio" /><label for="dont_create_account">I don't want to create an account</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <input id="email" type="text" placeholder="email address" />
+          </div>
+        </div>
+        <div class="row collapse">
+          <div class="small-6 columns">
+            <input id="password1" type="password" placeholder="password" />
+          </div>
+          <div class="small-6 columns">
+            <input id="password2" type="password" placeholder="password again" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <input id="ccnum" type="text" placeholder="credit card number" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-8 columns">
+            <div class="row collapse">
+              <label>Expiration date</label>
+              <div class="small-6 columns">
+                <input id="ccexpmo" type="text" placeholder="month" />
+              </div>
+              <div class="small-6 columns">
+                <input id="ccexpyr" type="text" placeholder="year" />
+              </div>
+            </div>
+          </div>
+          <div class="small-4 columns">
+            <label>Security</label>
+            <input id="ccnum" type="text" placeholder="code" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 columns">
+            <label>How much would you like to donate?</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <ul class="no-bullet">
+              <li>$50 = 20 turtles</li>
+              <li>$250 = full nest</li>
+              <li>$15,000 = a beach</li>
+            </ul>
+          </div>
+          <div class="small-6 columns">
+            <input id="amount" type="text" placeholder="$" />
+          </div>
+        </div>
+        <div class="row text-right">
+          <div class="small-12 columns">
+            <a id="donate" class="button radius">Donate</a>
+          </div>
+        </div>
+    </form>
     </div>
+    
+
     <div class="content">
     </div>
 
 
     <div class="fixed">
-      <nav class="top-bar" data-topbar>
+      <nav class="top-bar hide-for-small" data-topbar>
         <!--ul class="title-area">
           <li class="name">
             <h1><a href="#">My Site</a></h1>
