@@ -1,8 +1,9 @@
 @import "settings";
 @import "foundation";
 
+@import "foundicons";
+
 @import url(http://fonts.googleapis.com/css?family=Actor);
-@import url(css/foundation-icons);
 
 body {
 }
@@ -22,7 +23,7 @@ body.turtles {
   opacity: 0.8;
 }
 
-.stats {
+div.stats {
   position: absolute;
   top: 5em;
   right: 2em;
@@ -32,6 +33,13 @@ body.turtles {
   background-color: white;
   filter: alpha(opacity=80);
   opacity: 0.8;
+}
+
+.engagement {
+  font-size: 3em;
+  color: #e67e22;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 
 div.stats > p {

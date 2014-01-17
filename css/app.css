@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Actor);
-@import url(css/foundation-icons);
 /* line 293, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
@@ -7403,7 +7402,272 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 10, ../scss/app.scss */
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/general_foundicons.eot");
+  src: url("../fonts/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general_foundicons.woff") format("woff"), url("../fonts/general_foundicons.ttf") format("truetype"), url("../fonts/general_foundicons.svg#GeneralFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 35, ../scss/_foundicons.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 45, ../scss/_foundicons.scss */
+[class*="foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-settings:before {
+  content: "\f000";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-heart:before {
+  content: "\f001";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-star:before {
+  content: "\f002";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-plus:before {
+  content: "\f003";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-minus:before {
+  content: "\f004";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-checkmark:before {
+  content: "\f005";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-remove:before {
+  content: "\f006";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-mail:before {
+  content: "\f007";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-calendar:before {
+  content: "\f008";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-page:before {
+  content: "\f009";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-tools:before {
+  content: "\f00a";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-globe:before {
+  content: "\f00b";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-home:before {
+  content: "\f00c";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-quote:before {
+  content: "\f00d";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-people:before {
+  content: "\f00e";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-monitor:before {
+  content: "\f00f";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-laptop:before {
+  content: "\f010";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-phone:before {
+  content: "\f011";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-cloud:before {
+  content: "\f012";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-error:before {
+  content: "\f013";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-right-arrow:before {
+  content: "\f014";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-left-arrow:before {
+  content: "\f015";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-up-arrow:before {
+  content: "\f016";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-down-arrow:before {
+  content: "\f017";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-trash:before {
+  content: "\f018";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-add-doc:before {
+  content: "\f019";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-edit:before {
+  content: "\f01a";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-lock:before {
+  content: "\f01b";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-unlock:before {
+  content: "\f01c";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-refresh:before {
+  content: "\f01d";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-paper-clip:before {
+  content: "\f01e";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-video:before {
+  content: "\f01f";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-photo:before {
+  content: "\f020";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-graph:before {
+  content: "\f021";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-idea:before {
+  content: "\f022";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-mic:before {
+  content: "\f023";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-cart:before {
+  content: "\f024";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-address-book:before {
+  content: "\f025";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-compass:before {
+  content: "\f026";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-flag:before {
+  content: "\f027";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-location:before {
+  content: "\f028";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-clock:before {
+  content: "\f029";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-folder:before {
+  content: "\f02a";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-inbox:before {
+  content: "\f02b";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-website:before {
+  content: "\f02c";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-smiley:before {
+  content: "\f02d";
+}
+
+/* line 8, ../scss/_foundicons.scss */
+.foundicon-search:before {
+  content: "\f02e";
+}
+
+/* line 11, ../scss/app.scss */
 body.turtles {
   background: url(../img/turtles.jpg) no-repeat center center fixed;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtles.jpg', sizingMethod='scale')";
@@ -7414,14 +7678,14 @@ body.turtles {
   background-size: cover;
 }
 
-/* line 20, ../scss/app.scss */
+/* line 21, ../scss/app.scss */
 .top-bar {
   filter: alpha(opacity=80);
   opacity: 0.8;
 }
 
-/* line 25, ../scss/app.scss */
-.stats {
+/* line 26, ../scss/app.scss */
+div.stats {
   position: absolute;
   top: 5em;
   right: 2em;
@@ -7433,14 +7697,22 @@ body.turtles {
   opacity: 0.8;
 }
 
-/* line 37, ../scss/app.scss */
+/* line 38, ../scss/app.scss */
+.engagement {
+  font-size: 3em;
+  color: #e67e22;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+/* line 45, ../scss/app.scss */
 div.stats > p {
   font-weight: bold;
   font-size: 1em;
   margin: 0;
 }
 
-/* line 43, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
 div.stats div.progress p {
   font-size: 0.9em;
   display: block;

@@ -1,242 +1,73 @@
-/* general icons for IE7 */
-/* line 4, ../scss/general_foundicons_ie7.scss */
-[class*="foundicon-"] {
-  font-family: "GeneralFoundicons";
-  font-weight: normal;
-  font-style: normal;
-}
+/*
+Syntax error: Undefined variable: "$classPrefix".
+        on line 4 of /var/www/hackdance/html/scss/general_foundicons_ie7.scss
 
-/* line 1202, ../scss/_settings.scss */
-.foundicon-settings {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
-}
+1: /var/www/hackdance/html/scss/general_foundicons_ie7.scss
 
-/* line 1202, ../scss/_settings.scss */
-.foundicon-heart {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-star {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-plus {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-minus {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-checkmark {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-remove {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-mail {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-calendar {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-page {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-tools {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-globe {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-home {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-quote {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-people {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-monitor {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-laptop {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-phone {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-cloud {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-error {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-right-arrow {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-left-arrow {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-up-arrow {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-down-arrow {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-trash {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-add-doc {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-edit {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-lock {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-unlock {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-refresh {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-paper-clip {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-video {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-photo {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-graph {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-idea {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-mic {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-cart {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-address-book {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-compass {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-flag {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-location {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-clock {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-folder {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-inbox {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-website {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-smiley {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
-}
-
-/* line 1202, ../scss/_settings.scss */
-.foundicon-search {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
-}
+Backtrace:
+/var/www/hackdance/html/scss/general_foundicons_ie7.scss:4
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/script/variable.rb:49:in `_perform'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/script/node.rb:40:in `perform'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:398:in `block in run_interp_no_strip'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:396:in `map'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:396:in `run_interp_no_strip'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:406:in `run_interp'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:313:in `visit_rule'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/rob/.gem/ruby/2.0.0/bin/compass:23:in `load'
+/home/rob/.gem/ruby/2.0.0/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$classPrefix\".\A         on line 4 of /var/www/hackdance/html/scss/general_foundicons_ie7.scss\A \A 1: /var/www/hackdance/html/scss/general_foundicons_ie7.scss"; }

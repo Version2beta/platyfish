@@ -1,265 +1,69 @@
-/* font-face */
-@font-face {
-  font-family: "GeneralFoundicons";
-  src: url("../fonts/general_foundicons.eot");
-  src: url("../fonts/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general_foundicons.woff") format("woff"), url("../fonts/general_foundicons.ttf") format("truetype"), url("../fonts/general_foundicons.svg#GeneralFoundicons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+/*
+Syntax error: Undefined mixin 'face'.
+        on line 4 of /var/www/hackdance/html/scss/general_foundicons.scss, in `face'
+        from line 4 of /var/www/hackdance/html/scss/general_foundicons.scss
 
-/* global foundicon styles */
-/* line 7, ../scss/general_foundicons.scss */
-[class*="foundicon-"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-}
+1: /var/www/hackdance/html/scss/general_foundicons.scss
 
-/* line 17, ../scss/general_foundicons.scss */
-[class*="foundicon-"]:before {
-  font-family: "GeneralFoundicons";
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-}
-
-/* icons */
-/* line 1196, ../scss/_settings.scss */
-.foundicon-settings:before {
-  content: "\f000";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-heart:before {
-  content: "\f001";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-star:before {
-  content: "\f002";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-plus:before {
-  content: "\f003";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-minus:before {
-  content: "\f004";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-checkmark:before {
-  content: "\f005";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-remove:before {
-  content: "\f006";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-mail:before {
-  content: "\f007";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-calendar:before {
-  content: "\f008";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-page:before {
-  content: "\f009";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-tools:before {
-  content: "\f00a";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-globe:before {
-  content: "\f00b";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-home:before {
-  content: "\f00c";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-quote:before {
-  content: "\f00d";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-people:before {
-  content: "\f00e";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-monitor:before {
-  content: "\f00f";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-laptop:before {
-  content: "\f010";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-phone:before {
-  content: "\f011";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-cloud:before {
-  content: "\f012";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-error:before {
-  content: "\f013";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-right-arrow:before {
-  content: "\f014";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-left-arrow:before {
-  content: "\f015";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-up-arrow:before {
-  content: "\f016";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-down-arrow:before {
-  content: "\f017";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-trash:before {
-  content: "\f018";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-add-doc:before {
-  content: "\f019";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-edit:before {
-  content: "\f01a";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-lock:before {
-  content: "\f01b";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-unlock:before {
-  content: "\f01c";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-refresh:before {
-  content: "\f01d";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-paper-clip:before {
-  content: "\f01e";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-video:before {
-  content: "\f01f";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-photo:before {
-  content: "\f020";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-graph:before {
-  content: "\f021";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-idea:before {
-  content: "\f022";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-mic:before {
-  content: "\f023";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-cart:before {
-  content: "\f024";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-address-book:before {
-  content: "\f025";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-compass:before {
-  content: "\f026";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-flag:before {
-  content: "\f027";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-location:before {
-  content: "\f028";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-clock:before {
-  content: "\f029";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-folder:before {
-  content: "\f02a";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-inbox:before {
-  content: "\f02b";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-website:before {
-  content: "\f02c";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-smiley:before {
-  content: "\f02d";
-}
-
-/* line 1196, ../scss/_settings.scss */
-.foundicon-search:before {
-  content: "\f02e";
-}
+Backtrace:
+/var/www/hackdance/html/scss/general_foundicons.scss:4:in `face'
+/var/www/hackdance/html/scss/general_foundicons.scss:4
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+/home/rob/.gem/ruby/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/home/rob/.gem/ruby/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/rob/.gem/ruby/2.0.0/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/rob/.gem/ruby/2.0.0/bin/compass:23:in `load'
+/home/rob/.gem/ruby/2.0.0/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'face'.\A         on line 4 of /var/www/hackdance/html/scss/general_foundicons.scss, in `face'\A         from line 4 of /var/www/hackdance/html/scss/general_foundicons.scss\A \A 1: /var/www/hackdance/html/scss/general_foundicons.scss"; }
