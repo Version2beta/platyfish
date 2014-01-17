@@ -1,0 +1,49 @@
+@import "settings";
+@import "foundation";
+
+@import url(http://fonts.googleapis.com/css?family=Actor);
+@import url(css/foundation-icons);
+
+body {
+}
+
+body.turtles {
+  background: url(../img/turtles.jpg) no-repeat center center fixed;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtles.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtles.jpg', sizingMethod='scale');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-bar {
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+
+.stats {
+  position: absolute;
+  top: 5em;
+  right: 2em;
+  width: 24em;
+  padding: 1em;
+  font-size: 0.8em;
+  background-color: white;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+
+div.stats > p {
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0;
+}
+
+div.stats div.progress p {
+  font-size: 0.9em;
+  display: block;
+  float: right;
+  margin: 0;
+}
+
