@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/app.css">
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
-<body class="home">
+<body class="{{ controller }}">
     <div ng-view></div>
 
     <div class="fixed">
@@ -42,8 +42,9 @@
     <script src="js/foundation.min.js"></script>
     <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
     <script src="http://code.angularjs.org/1.2.9/angular-route.js"></script>
-    <script src="app.js"></script>
-    <script src="/controllers/home.js"></script>
+    <script src="js/app.js"></script>
+    <script src="controllers/home.js"></script>
+    <script src="controllers/campaign.js"></script>
     <script>
         $(document).foundation();
     </script>
