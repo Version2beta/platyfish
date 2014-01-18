@@ -19,8 +19,16 @@ body.turtles {
 }
 
 .top-bar {
-  filter: alpha(opacity=80);
-  opacity: 0.8;
+/*  filter: alpha(opacity=80);
+ *  opacity: 0.8;
+ */
+}
+
+ul.title-area li.name a {
+  width: 114px;
+  height: 147px;
+  display: block;
+  background: black url(/img/bglogo.gif) 0 0 no-repeat;
 }
 
 div.stats {
@@ -66,13 +74,23 @@ div.stats div.progress p {
 
 div.content {
   width: 40%;
-  margin: 1em;
+  margin: 1em 1em 1em 142px;
   padding: 1em;
   background-color: white;
   filter: alpha(opacity=67);
   opacity: 0.67;
 }
 
+div.content div.row {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
 div.content div.share {
   font-size: 3.0em;
+  margin-bottom: 0.5em;
+}
+
+div.content div.resources {
+  margin-bottom: 1em;
 }
