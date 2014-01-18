@@ -28,6 +28,16 @@ body.campaign {
   background-size: cover;
 }
 
+body.teaching {
+  background: url(/img/solo_young_turtle.jpg) no-repeat center center fixed;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/solo_young_turtle.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/solo_young_turtle.jpg', sizingMethod='scale');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .top-bar {
 /*  filter: alpha(opacity=80);
  *  opacity: 0.8;
@@ -84,7 +94,7 @@ div.content {
   width: 40%;
   margin: 1em 1em 1em 142px;
   padding: 1em;
-  background: rgba(255,255,255,0.67);
+  background: rgba(255,255,255,0.84);
 }
 
 div.content div.share {

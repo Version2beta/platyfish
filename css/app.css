@@ -9148,13 +9148,24 @@ body.campaign {
 }
 
 /* line 31, ../scss/app.scss */
+body.teaching {
+  background: url(/img/solo_young_turtle.jpg) no-repeat center center fixed;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/solo_young_turtle.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/solo_young_turtle.jpg', sizingMethod='scale');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 41, ../scss/app.scss */
 .top-bar {
   /*  filter: alpha(opacity=80);
    *  opacity: 0.8;
    */
 }
 
-/* line 37, ../scss/app.scss */
+/* line 47, ../scss/app.scss */
 ul.title-area li.name a {
   width: 114px;
   height: 147px;
@@ -9162,7 +9173,7 @@ ul.title-area li.name a {
   background: black url(/img/bglogo.gif) 0 0 no-repeat;
 }
 
-/* line 44, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 div.stats {
   position: absolute;
   top: 5em;
@@ -9173,7 +9184,7 @@ div.stats {
   background: rgba(255, 255, 255, 0.76);
 }
 
-/* line 54, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .engagement {
   position: relative;
   top: -0.75em;
@@ -9184,21 +9195,21 @@ div.stats {
   opacity: 0.5;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .engagement .foundicon {
   position: relative;
   top: 0.25em;
   font-size: 2em;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 div.stats > p {
   font-weight: bold;
   font-size: 1em;
   margin: 0;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 div.stats div.progress p {
   font-size: 0.9em;
   display: block;
@@ -9206,21 +9217,21 @@ div.stats div.progress p {
   margin: 0;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 div.content {
   width: 40%;
   margin: 1em 1em 1em 142px;
   padding: 1em;
-  background: rgba(255, 255, 255, 0.67);
+  background: rgba(255, 255, 255, 0.84);
 }
 
-/* line 90, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 div.content div.share {
   font-size: 3.0em;
   margin-bottom: 0.5em;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 div.content div.resources {
   margin-bottom: 1em;
 }

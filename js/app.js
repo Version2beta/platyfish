@@ -17,7 +17,8 @@ app.config(function ($routeProvider, $locationProvider) {
   }).when(
     '/teaching',
     {
-      templateUrl: '/views/teaching.html'
+      templateUrl: '/views/teaching.html',
+      controller: 'TeachingController'
   }).when(
     '/404',
     {
