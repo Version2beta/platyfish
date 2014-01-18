@@ -1,5 +1,6 @@
-app.controller('CampaignCtrl', function ($scope, $http, $rootScope) {
+app.controller('CampaignController', function ($scope, $http, $rootScope) {
   $rootScope.controller = "campaign";
+  console.log("CampaignController");
   $scope.createCampaign = function () {
     apitoken = window.sessionStorage.token;
     var jsonCreateData = JSON.stringify({

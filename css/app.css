@@ -9127,9 +9127,9 @@ th.hide-for-touch {
 
 /* line 11, ../scss/app.scss */
 body.home {
-  background: url(../img/elkhorn_coral.jpg) no-repeat center center fixed;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/elkhorn_coral.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/elkhorn_coral.jpg', sizingMethod='scale');
+  background: url(/img/elkhorn_coral.jpg) no-repeat center center fixed;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/elkhorn_coral.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/elkhorn_coral.jpg', sizingMethod='scale');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9137,10 +9137,10 @@ body.home {
 }
 
 /* line 21, ../scss/app.scss */
-body.turtles {
-  background: url(../img/turtles.jpg) no-repeat center center fixed;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtles.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtles.jpg', sizingMethod='scale');
+body.campaign {
+  background: url(/img/turtle2.jpg) no-repeat center center fixed;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/turtle2.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/turtle2.jpg', sizingMethod='scale');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9170,12 +9170,10 @@ div.stats {
   width: 24em;
   padding: 1em;
   font-size: 0.8em;
-  background-color: white;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.76);
 }
 
-/* line 56, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 .engagement {
   position: relative;
   top: -0.75em;
@@ -9186,21 +9184,21 @@ div.stats {
   opacity: 0.5;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .engagement .foundicon {
   position: relative;
   top: 0.25em;
   font-size: 2em;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 div.stats > p {
   font-weight: bold;
   font-size: 1em;
   margin: 0;
 }
 
-/* line 78, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 div.stats div.progress p {
   font-size: 0.9em;
   display: block;
@@ -9208,7 +9206,7 @@ div.stats div.progress p {
   margin: 0;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 div.content {
   width: 40%;
   margin: 1em 1em 1em 142px;
@@ -9216,19 +9214,13 @@ div.content {
   background: rgba(255, 255, 255, 0.67);
 }
 
-/* line 92, ../scss/app.scss */
-div.content div.row {
-  filter: alpha(opacity=100);
-  opacity: 1;
-}
-
-/* line 97, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 div.content div.share {
   font-size: 3.0em;
   margin-bottom: 0.5em;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 div.content div.resources {
   margin-bottom: 1em;
 }
