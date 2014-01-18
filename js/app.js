@@ -1,4 +1,9 @@
-﻿var app = angular.module('app', ["ngRoute"]);
+﻿var config = {
+  api: "//192.168.19.133/PafAPI/",
+  key: "597C81DE-4E50-475F-B26C-6857BA068175"
+}
+
+var app = angular.module('app', ["ngRoute", "ngResource"]);
 app.config(function ($routeProvider, $locationProvider) {
   $routeProvider.when(
     '/campaigns',
@@ -9,6 +14,10 @@ app.config(function ($routeProvider, $locationProvider) {
     {
       templateUrl: '/views/campaign.html',
       controller: 'CampaignController'
+  }).when(
+    '/teaching',
+    {
+      templateUrl: '/views/teaching.html'
   }).when(
     '/404',
     {
@@ -23,3 +32,8 @@ app.config(function ($routeProvider, $locationProvider) {
   });
   $locationProvider.html5Mode(true);
 });
+
+var ProjectsApi = function($resource) {
+  this.top = $resource(config.api + '/projects/top', { apikey: config.key });
+}
+app.service("Projects", ProjectsApi);

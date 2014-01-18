@@ -6,8 +6,8 @@
       <p>Our work is arranged around campaigns supporting specific projects. Some of our current projects:</p>
       <a href="/campaigns/abc">campaigns</a>
       <ul class="no-bullet">
-        <li>
-          
+        <li ng-repeat="project in projects">
+        <a href="/campaigns/{{project.Id}}" alt="{{project.Title}}">{{project.Title}}</a>: {{project.ShortIntro}} {{project.VideoId}}
         </li>
       </ul>
     </div>
