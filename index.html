@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" ng-app="app">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +9,9 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     <link rel="stylesheet" href="css/app.css">
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-  
 </head>
 <body class="home">
-    <div class="view" ui-view></div>
+    <div ng-view></div>
 
     <div class="fixed">
         <nav class="top-bar hide-for-small" data-topbar>
