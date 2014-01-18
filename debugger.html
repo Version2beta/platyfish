@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html>
+<head>
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
+    <script src="MainController.js"></script>
+    <script src="ModalDemoCtrl.js"></script>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="lib/modernizr.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="lib/OAuth.js"></script>
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>
+        OAuth.initialize('gxRDgpKqG1L3R8akimrYL9p4hxo');
+        OAuth.popup('facebook', function (error, result) {
+            debugger;
+            this.window.sessionStorage.set("oauthtoken", result.access_token);
+
+        });
+    </script>
+    <div ng-app="app">
+        <div ng-controller="MainCtrl">
+
+        </div>
+        <hr />
+        <h1>Get API Key</h1>
+        <div ng-controller="UserCtrl">
+            <label>Name</label>
+            <input type="text" id="name" name="name" ng-model="name" placeholder="user name" class="large-4.columns">
+
+            <label>Password</label>
+            <input type="text" id="pwd" name="pwd" ng-model="pwd" placeholder="password" class="large-4.columns">
+
+            <button ng-click="login()" class="btn btn-primary">Login</button>
+        </div>
+        <hr />
+        <h1>Create Campaign</h1>
+        <div ng-controller="CampaignCtrl">
+            <label>Campaign Name</label>
+            <input type="text" id="campaign-name" name="campaign-name" ng-model="campaignName" placeholder="Campaign Name" class="large-4.columns">
+            <label><input type="checkbox" id="campaign-name" name="campaign-name" ng-model="discoveryAllowed" placeholder="Discovery Allowed" class="large-4.columns" />Discovery Allowed</label>
+            <label><input type="checkbox" id="campaign-name" name="campaign-name" ng-model="searchAllowed" placeholder="Search Allowed" class="large-4.columns" />Search Allowed</label>
+            <input type="text" id="campaign-name" name="campaign-name" ng-model="description" placeholder="Description" class="large-4.columns">
+            <input type="number" id="campaign-name" name="campaign-name" ng-model="moneyGoal" placeholder="Money Goal" class="large-4.columns">
+            <input type="number" id="campaign-name" name="campaign-name" ng-model="itemsGoal" placeholder="Items Goal" class="large-4.columns">
+            <input type="text" id="campaign-name" name="campaign-name" ng-model="itemNameSingle" placeholder="Item Name" class="large-4.columns">
+            <button ng-click="createCampaign()" class="btn btn-primary">Create</button>
+        </div>
+        <hr />
+        <div ng-controller="CampaignCtrl">
+            <button ng-click="getCampaign('groupid1')" class="btn btn-primary">Cycle Campaign</button>
+        </div>
+</body>
+</html>
