@@ -202,23 +202,124 @@
           </div>
 
           <!-- Personal campaigns -->
-          <h2 class="text-center">Sea Turtles at Isla Cedros<br />has 3 personal projects.</h2>
-          <ul class="no-bullet">
-            <li>
-              <p><a href="#" title="Mr. Jones' sea turtle class project">Mr. Jones' sea turtle class project</a> Our fifth hour science class at Benjamin Franklin Middle School is...</p>
-                <ul class="nobullet">
-                  <li>
-                    <p><a href="#" title="Sally Schoolgirl's Sea Turtle Fundraiser!">Sally Schoolgirl's Sea Turtle Fundraiser!</a> Hi! Thank you for visiting my SEA TURTLE FUNDRAISER! I'm in Mr. Jones'...</p>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <p><a href="#" title="Annetta's sea turtle campaign">Annetta's sea turtle campaign</a> For Christmas 2013, I'm raising $5,000 for sea turtles. You can help by...</p>
-            </li>
-          </ul>
+          <div class="row">
+            <div class="small-12 columns">
+              <h2 class="text-center">Sea Turtles at Isla Cedros<br />has 3 personal projects.</h2>
+              <ul class="no-bullet">
+                <li>
+                  <p><a href="#" title="Mr. Jones' sea turtle class project">Mr. Jones' sea turtle class project</a> Our fifth hour science class at Benjamin Franklin Middle School is...</p>
+                    <ul class="nobullet">
+                      <li>
+                        <p><a href="#" title="Sally Schoolgirl's Sea Turtle Fundraiser!">Sally Schoolgirl's Sea Turtle Fundraiser!</a> Hi! Thank you for visiting my SEA TURTLE FUNDRAISER! I'm in Mr. Jones'...</p>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                  <p><a href="#" title="Annetta's sea turtle campaign">Annetta's sea turtle campaign</a> For Christmas 2013, I'm raising $5,000 for sea turtles. You can help by...</p>
+                </li>
+              </ul>
+            </div>
+          </div>
 
           <!-- Create a personal campaign -->
-          <p><a class="radius button" style="width: 100%">I want to start a Sea Turtles at Isla Cedros campaign!</a></p>
+          <div class="row">
+            <div class="small-12 columns">
+              <p><a class="radius button" style="width: 100%">I want to start a Sea Turtles at Isla Cedros campaign!</a></p>
+              <form>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>What is the name of your campaign? (My Sea Turtles campaign?)</label>
+                    <input id="title" type="text" placeholder="Campaign title" />
+                  </div>
+                </div>
+                <!--
+                Social media
+                Assets (local or remote), remote url, mime type
+                -->
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>When will your campaign end?</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-4 columns">
+                    <select>
+                      <option value="1">January</option>
+                      <option value="2">February</option>
+                      <option value="3">March</option>
+                      <option value="4">April</option>
+                      <option value="5">May</option>
+                      <option value="6">June</option>
+                      <option value="7">July</option>
+                      <option value="8">August</option>
+                      <option value="9">September</option>
+                      <option value="10">October</option>
+                      <option value="11">November</option>
+                      <option value="12">December</option>
+                    </select>
+                  </div>
+                  <div class="small-4 columns">
+                    <input id="deadline_day" type="text" placeholder="Day" />
+                  </div>
+                  <div class="small-4 columns">
+                    <input id="deadline_year" type="text" placeholder="Year" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>What are the goals for your campaign?</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-3 columns">
+                    <input id="goal_money" type="text" placeholder="$" />
+                  </div>
+                  <div class="small-3 columns">
+                    <p>Dollars</p>
+                  </div>
+                  <div class="small-3 columns">
+                    <input id="goal_items" type="text" />
+                  </div>
+                  <div class="small-3 columns">
+                    <p>Turtles</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>
+                      Would you like to suggest some donation levels? For example:<br />
+                      $2.50 pays for 1 turtle<br />
+                      $25.00 pays for 10 turtles<br />
+                    </label>
+                    <textarea id="suggested_donations" placeholder="Campaign title"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>If you have a YouTube video, paste the link here:</label>
+                    <input id="video" type="text" placeholder="http://www.youtube.com/watch?v=XXXXXXXXXXXX" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>Write an introduction to your campaign here:</label>
+                    <textarea id="introduction" placeholder="Welcome to my campaign to raise money for..."></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>Write an description of your campaign here:</label>
+                    <textarea id="description" placeholder="I'm running my own campaign because..."></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns">
+                    <p>Need assets and social media form tools.</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
 
         </div>
       </div>
