@@ -1,7 +1,7 @@
 @import "settings";
 @import "foundation";
 
-@import "foundicons";
+@import "foundation-icons";
 
 @import url(http://fonts.googleapis.com/css?family=Actor);
 
@@ -36,10 +36,19 @@ div.stats {
 }
 
 .engagement {
-  font-size: 3em;
+  position: relative;
+  top: -0.75em;
+  font-size: 2em;
+  padding-bottom: 0.5em;
   color: #e67e22;
   filter: alpha(opacity=50);
   opacity: 0.5;
+}
+
+.engagement .foundicon {
+  position: relative;
+  top: 0.25em;
+  font-size: 2em;
 }
 
 div.stats > p {
@@ -55,3 +64,15 @@ div.stats div.progress p {
   margin: 0;
 }
 
+div.content {
+  width: 40%;
+  margin: 1em;
+  padding: 1em;
+  background-color: white;
+  filter: alpha(opacity=67);
+  opacity: 0.67;
+}
+
+div.content div.share {
+  font-size: 3.0em;
+}
