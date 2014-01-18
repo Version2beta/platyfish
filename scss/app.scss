@@ -8,6 +8,16 @@
 body {
 }
 
+body.home {
+  background: url(../img/elkhorn_coral.jpg) no-repeat center center fixed;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/elkhorn_coral.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/elkhorn_coral.jpg', sizingMethod='scale');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body.turtles {
   background: url(../img/turtles.jpg) no-repeat center center fixed;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/turtles.jpg', sizingMethod='scale')";
@@ -76,9 +86,7 @@ div.content {
   width: 40%;
   margin: 1em 1em 1em 142px;
   padding: 1em;
-  background-color: white;
-  filter: alpha(opacity=67);
-  opacity: 0.67;
+  background: rgba(255,255,255,0.67);
 }
 
 div.content div.row {

@@ -1,11 +1,11 @@
 ﻿var app = angular.module('app', ["ngRoute"]);
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider, $locationProvider) {
   $routeProvider.when(
     '/',
     {
       templateUrl: 'views/home.html',
-      controller: 'MainCtrl'
+      controller: 'HomeController'
     });
+  $locationProvider.html5Mode(true);
 });
 
-app.controller('MainCtrl', ['$scope', function ($scope) { console.log("MainCtrl"); }]);
